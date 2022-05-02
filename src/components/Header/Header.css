@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #b5b4b0;
+  font-size: 20px;
+  padding: 30px;
+  text-align: right;
+  font-weight: 600;
+  background-color: #1d1917;
+  text-decoration: none;
+}
+
+.header:hover {
+  color: #90432b;
+  transition: 1s;
+  cursor: pointer;
+}

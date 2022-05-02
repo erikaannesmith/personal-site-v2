@@ -1,0 +1,15 @@
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}

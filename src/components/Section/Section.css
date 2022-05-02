@@ -1,0 +1,8 @@
+.section-label {
+  text-transform: uppercase;
+}
+
+.section-label.active {
+  color: #90432b;
+  transition: 0.75s;
+}
