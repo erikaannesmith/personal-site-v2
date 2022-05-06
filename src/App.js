@@ -8,8 +8,6 @@ import { Header } from "./components/Header/Header";
 import { HeroImage } from "./components/HeroImage/HeroImage";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import { Section } from "./components/Section/Section";
-import desert from "./assets/desert.jpg";
-import ocean from "./assets/ocean.jpg";
 
 import { items } from "./items";
 
@@ -23,11 +21,13 @@ function App() {
       </style>
       <div className={`app ${display}`}>
         <Header display={display} setDisplay={setDisplay} />
-        <HeroImage image={display === "desert" ? desert : ocean}>
+
+        <HeroImage display={display}>
           <div className="button-wrapper">
             <FancyButton>hey there</FancyButton>
           </div>
         </HeroImage>
+
         <div className="content">
           <Sidebar />
           <div className="sections">
