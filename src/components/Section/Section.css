@@ -3,6 +3,6 @@
 }
 
 .section-label.active {
-  color: #90432b;
+  color: var(--primary);
   transition: 0.75s;
 }

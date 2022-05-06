@@ -11,7 +11,7 @@
   appearance: none;
   border: 0;
   background: transparent;
-  color: #1d1917;
+  color: var(--dark);
   text-transform: uppercase;
   letter-spacing: 0.25em;
   cursor: pointer;
@@ -22,9 +22,9 @@
 
   &:hover {
     background: rgba(100, 0, 0, 0.03);
-    color: #90432b;
+    color: var(--primary);
     transition: 1s;
-    background-color: #1d1917;
+    background-color: var(--dark);
   }
 
   &__horizontal,

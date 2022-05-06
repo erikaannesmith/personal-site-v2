@@ -3,18 +3,13 @@
   align-items: center;
   grid-gap: 10px;
   text-decoration: none;
-  color: #1d1917;
+  color: var(--dark);
 }
 
-.sidebar-item:hover {
-  color: #90432b;
+.sidebar-item:hover, .sidebar-item.active{
+  color: var(--primary);
   transition: 0.75s;
   cursor: pointer;
-}
-
-.sidebar-item.active {
-  color: #90432b;
-  transition: 0.75s;
 }
 
 .sidebar {
@@ -23,7 +18,8 @@
   flex-direction: column;
 }
 
-.navigation, .resources {
+.navigation,
+.resources {
   display: grid;
   grid-gap: 15px;
 }
