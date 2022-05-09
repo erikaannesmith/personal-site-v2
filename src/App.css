@@ -1,18 +1,9 @@
 .app {
   height: 100vh;
   font-family: "Roboto Mono", monospace;
-}
-
-.app.desert {
   --primary: #90432b;
   --light: #b5b4b0;
   --dark: #1d1917;
-}
-
-.app.ocean {
-  --primary: #366171;
-  --light: #dce3e6;
-  --dark: #1a2326;
 }
 
 .button-wrapper {

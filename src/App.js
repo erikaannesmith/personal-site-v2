@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -12,22 +11,19 @@ import { Section } from "./components/Section/Section";
 import { items } from "./items";
 
 function App() {
-  const [display, setDisplay] = useState("desert");
   return (
     <Router>
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
       </style>
-      <div className={`app ${display}`}>
-        <Header display={display} setDisplay={setDisplay} />
-
-        <HeroImage display={display}>
+      <div className="app">
+        <Header />
+        <HeroImage>
           <div className="button-wrapper">
             <FancyButton>hey there</FancyButton>
           </div>
         </HeroImage>
-
         <div className="content">
           <Sidebar />
           <div className="sections">
